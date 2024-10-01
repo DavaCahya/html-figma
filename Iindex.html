@@ -1,0 +1,247 @@
+<html>
+ <head>
+  <title>
+   Paradise View
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+        .navbar a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 15px;
+            font-weight: 600;
+        }
+        .navbar a.active {
+            color: #b59d6a;
+        }
+        .navbar .logo img {
+            width: 50px;
+        }
+        .navbar .btn {
+            background-color: #b59d6a;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 50px 0;
+        }
+        .hero .text {
+            max-width: 50%;
+        }
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            color: #333;
+            margin: 0;
+        }
+        .hero p {
+            color: #666;
+            margin: 20px 0;
+        }
+        .hero .btn-group {
+            display: flex;
+            align-items: center;
+        }
+        .hero .btn-group .btn {
+            margin-right: 20px;
+        }
+        .hero .btn-group .btn:first-child {
+            background-color: #b59d6a;
+            color: #fff;
+        }
+        .hero .btn-group .btn:last-child {
+            background-color: #00bfa6;
+            color: #fff;
+        }
+        .hero img {
+            max-width: 45%;
+            border-radius: 10px;
+        }
+        .booking-form {
+            display: flex;
+            justify-content: space-between;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: -50px;
+            position: relative;
+            z-index: 1;
+        }
+        .booking-form .form-group {
+            display: flex;
+            align-items: center;
+            margin-right: 20px;
+        }
+        .booking-form .form-group i {
+            margin-right: 10px;
+            color: #666;
+        }
+        .booking-form .form-group select,
+        .booking-form .form-group input {
+            border: none;
+            background-color: #f8f8f8;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 14px;
+            color: #666;
+        }
+        .booking-form .btn {
+            background-color: #b59d6a;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .facilities {
+            text-align: center;
+            padding: 50px 0;
+        }
+        .facilities h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 36px;
+            color: #333;
+            margin: 0;
+        }
+        .facilities p {
+            color: #666;
+            margin: 20px 0;
+        }
+  </style>
+ </head>
+ <body>
+  <div class="container">
+   <div class="navbar">
+    <div class="logo">
+     <img alt="Logo" height="50" src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-RcpoXHkzChYnDbFAyeQ8tamr/user-ehrvabJ3DufsCu8YJ7PqY5gl/img-q2vKHAGARHyP79NNCraueAWI.png?st=2024-10-01T05%3A27%3A01Z&amp;se=2024-10-01T07%3A27%3A01Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-10-01T01%3A18%3A13Z&amp;ske=2024-10-02T01%3A18%3A13Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=kVzRIszTYH7fQOWtI2HalIMwGjkAlFZ0%2B6zCRmFAarg%3D" width="50"/>
+    </div>
+    <div class="nav-links">
+     <a class="active" href="#">
+      Home
+     </a>
+     <a href="#">
+      Explore
+     </a>
+     <a href="#">
+      Rooms
+     </a>
+     <a href="#">
+      About
+     </a>
+     <a href="#">
+      Contact
+     </a>
+    </div>
+    <button class="btn">
+     Book now
+    </button>
+   </div>
+   <div class="hero">
+    <div class="text">
+     <h1>
+      Paradise View
+     </h1>
+     <h2>
+      Hotel for every moment rich in emotion
+     </h2>
+     <p>
+      Every moment feels like the first time in paradise view
+     </p>
+     <div class="btn-group">
+      <button class="btn">
+       Book now
+      </button>
+      <button class="btn">
+       Take a tour
+      </button>
+     </div>
+    </div>
+    <img alt="Hotel view with pool and lounge area" height="400" src="5451_ho_00_p_1024x768.jpg" width="600"/>
+   </div>
+   <div class="booking-form">
+    <div class="form-group">
+     <i class="fas fa-map-marker-alt">
+     </i>
+     <select>
+      <option>
+       Location
+      </option>
+      <option>
+       Abuja
+      </option>
+     </select>
+    </div>
+    <div class="form-group">
+     <i class="fas fa-bed">
+     </i>
+     <select>
+      <option>
+       Room type
+      </option>
+      <option>
+       Standard
+      </option>
+     </select>
+    </div>
+    <div class="form-group">
+     <i class="fas fa-user">
+     </i>
+     <select>
+      <option>
+       Person
+      </option>
+      <option>
+       01
+      </option>
+     </select>
+    </div>
+    <div class="form-group">
+     <i class="fas fa-calendar-alt">
+     </i>
+     <input placeholder="Check in" type="text" value="09 mar 2023"/>
+    </div>
+    <div class="form-group">
+     <i class="fas fa-calendar-alt">
+     </i>
+     <input placeholder="Check out" type="text" value="13 mar 2023"/>
+    </div>
+    <button class="btn">
+     Book Now
+    </button>
+   </div>
+   <div class="facilities">
+    <h2>
+     Our Facilities
+    </h2>
+    <p>
+     We offer modern (5 star) hotel facilities for your comfort.
+    </p>
+   </div>
+  </div>
+ </body>
+</html>
